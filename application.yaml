@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: go-app3
-  namespace: openshift-gitops 
+  namespace: go-app3-namespace 
   finalizers: ["resources-finalizer.argocd.argoproj.io"] 
 spec:
   project: default
