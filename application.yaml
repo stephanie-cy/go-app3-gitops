@@ -15,7 +15,8 @@ spec:
     server: https://kubernetes.default.svc
   syncPolicy:
     managedNamespaceMetadata:
-      labels: argocd.argoproj.io/managed-by=rhtap-argocd # The labels to set on the application namespace
+      labels: 
+        argocd.argoproj.io/managed-by: rhtap-argocd
     automated: 
       prune: true
       selfHeal: true
