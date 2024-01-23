@@ -3,9 +3,6 @@ kind: Application
 metadata:
   name: go-app3
   namespace: dance-argocd
-  annotations:
-    argocd/app-name: go-app3
-    argocd/app-namespace: dance-argocd
   finalizers: ["resources-finalizer.argocd.argoproj.io"] 
 spec:
   project: default
