@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: go-app3
-  namespace: go-app3-namespace 
+  namespace: rhtap-argocd
   annotations:
     argocd/app-name: go-app3
     argocd/app-namespace: go-app3-namespace 
