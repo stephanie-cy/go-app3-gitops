@@ -2,10 +2,10 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: go-app3
-  namespace: rhtap-argocd
+  namespace: dance-argocd
   annotations:
     argocd/app-name: go-app3
-    argocd/app-namespace: rhtap-argocd
+    argocd/app-namespace: dance-argocd
   finalizers: ["resources-finalizer.argocd.argoproj.io"] 
 spec:
   project: default
