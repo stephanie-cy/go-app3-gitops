@@ -5,7 +5,7 @@ metadata:
   namespace: rhtap-argocd
   annotations:
     argocd/app-name: go-app3
-    argocd/app-namespace: go-app3-namespace 
+    argocd/app-namespace: rhtap-argocd
   finalizers: ["resources-finalizer.argocd.argoproj.io"] 
 spec:
   project: default
