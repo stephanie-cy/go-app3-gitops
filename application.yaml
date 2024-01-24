@@ -30,7 +30,7 @@ metadata:
   namespace: openshift-gitops
   finalizers: ["resources-finalizer.argocd.argoproj.io"] 
 spec:
-  project: default
+  project: go-app3
   source:
     path: ./components/go-app3/overlays/development
     repoURL: https://github.com/stephanie-cy/go-app3-gitops
